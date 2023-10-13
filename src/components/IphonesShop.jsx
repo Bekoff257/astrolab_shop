@@ -52,12 +52,6 @@ const IphonesShop = () => {
                                 slidesPerView: 3,
                                 },
                             }}
-                            
-                            // autoplay={{
-                            //   delay: 2500,
-                            //   disableOnInteraction: false
-                            // }}
-                            // loop={true}
                             draggable={true}
                             navigation={true}
                             modules={[Autoplay, Navigation]}
