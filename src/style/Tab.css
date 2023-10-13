@@ -1,0 +1,131 @@
+.tab{
+    background: #000;
+    margin-top: 80px;
+    padding-top: 60px;
+    min-height: 600px;
+}
+
+.tab_content{
+    display: flex;
+    align-items: center;
+}
+
+.tab_right p{
+    padding-bottom: 30px;
+    border-bottom: 1px solid #D9D9D9;
+    color: #FFF;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 169.187%;
+}
+
+.tab_left{
+    margin-left: 38%;
+}
+
+
+.tabs ul li{
+    cursor: pointer;
+    color: #86868b;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    transition: .2s ease;
+    padding: 10px;
+    margin-top: 16px;
+    display: flex;
+    align-items: center;
+    gap: 0 12px;
+}
+
+.tabs ul li:hover{
+    color: #7b7878;
+}
+
+.tabs ul li svg{
+    width: 24px;
+    height: 24px;
+}
+
+.tabs li.active{
+    border: 1px solid #FFF;
+    color: #fff;
+}
+
+.video{
+    opacity: 0;
+    transform: translateX(-100px);
+}
+
+.video-active{
+    transition: 5s;
+    opacity: 1;
+}
+
+.iphone_tab{
+    position: absolute;
+    transition: 0.2s ease;
+    right: 3%;
+    transition: opacity 0.5s ease; 
+    -webkit-border-top-left-radius: 60px;
+    -webkit-border-top-right-radius: 60px;
+    -moz-border-radius-topleft: 60px;
+    -moz-border-radius-topright: 60px;
+    border-top-left-radius: 60px;
+    border-top-right-radius: 60px;
+}
+
+.img_container{
+    position: relative;    
+}
+
+@media only screen and (max-width: 768px){
+    .tab{
+        padding-bottom: 50px;
+    }
+
+    .tab_content{
+        flex-direction: column;
+    }
+
+    .tab_left{
+        margin-left: 0;
+    }
+
+    .img_container{
+        padding-top: 10px;
+    }
+
+    .tab_right{
+        text-align: center;
+    }
+
+    .tab_right .tabs ul{
+        display: flex;
+        align-items: center;
+        gap: 0 30px;
+    }
+
+    .tabs{
+        overflow-x: auto;
+        width: 290px;
+    }
+
+    .border-image{
+        width: 300px;
+    }
+
+    .iphone_tab{
+        right: 1%;
+        width: 260px;
+        border-radius: 10px;
+    }
+
+    .tabs ul li{
+        font-size: 14px;
+        gap: 0 5px;
+        white-space: nowrap;
+    }
+}

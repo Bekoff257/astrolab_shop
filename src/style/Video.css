@@ -1,0 +1,26 @@
+.videos{
+    padding-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.videos h1{
+    color: #000;
+    font-size: 40px;
+    text-align: center;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+iframe{
+    padding-top: 40px;
+}
+
+@media only screen and (max-width: 768px){
+    iframe{
+        width: 360px;
+        height: 300px;
+    }
+}

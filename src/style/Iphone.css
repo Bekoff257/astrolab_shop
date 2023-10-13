@@ -1,0 +1,197 @@
+:root{
+    --swiper-navigation-color: #2F2F2F;
+}
+
+.iphone_shop{
+    margin-top: 80px;
+    background: #FFF;
+    padding-bottom: 60px;
+}
+
+
+.airpods_shop{
+    margin-top: 80px;
+    background: #FFF;
+    padding-bottom: 60px;
+}
+
+.macbook_shop{
+    margin-top: 50px;
+    background: #FFF;
+    padding-bottom: 60px;
+}
+
+
+.top_text h1{
+    padding-top: 50px;
+    color: #000;
+    font-size: 48px;
+    text-align: center;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.mySwiper{
+    width: 100%;
+}
+
+
+.iphones{
+    margin-top: 40px;
+}
+
+.aripods{
+    margin-top: 40px;
+}
+
+.macbook{
+    margin-top: 40px;
+}
+
+.mySwiper img{
+    display: block;
+    object-fit: cover;
+}
+
+
+
+.info_sec{
+    padding-top: 30px;
+    text-align: center;
+}
+
+.new{
+    color: #D58655;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.info_sec p{
+    padding-top: 12px;
+    color: #2F2F2F;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.info_sec h5{
+    padding-top: 11px;
+    color: #000;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.price{
+    color: #909091;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.price_section{
+    padding-top: 24px;
+}
+
+
+.sw_img{
+    max-height: 300px;
+}
+
+.swiper-button-prev, .swiper-button-next {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #2F2F2F;
+    padding: 30px;
+    width: 80px;
+    height: 80px;
+    background: #F5F5F7;
+    border-radius: 50%;
+}
+
+.btn_shop{
+    padding-top: 24px;
+}
+
+.btn_shop button{
+    padding-top: 12px;   
+    color: #FFF;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.btn_shop .buy_btn{
+    cursor: pointer;
+    border: none;
+    background: #000;    
+    display: inline-flex;
+    padding: 5px 11px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.btn_shop .learn_more{
+    color: #000;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+}
+
+
+.product_img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.new{
+    margin-bottom: 70px;
+}
+
+.new_section{
+    min-height: 27px;
+}
+
+
+
+.iphone_imgcontainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* .swiper-android .swiper-slide, .swiper-ios .swiper-slide, .swiper-wrapper{
+    display: flex;
+    align-items: center;
+} */
+
+.close{
+    display: none;
+}
+
+.open{
+    display: block;
+}
+
+@media only screen and (max-width: 768px){
+
+    .top_text h1{
+        font-size: 25px;
+    }
+}

@@ -1,0 +1,135 @@
+.navbar{
+    padding: 30px;
+    background: #F5F5F7;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+}
+
+.nav_content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav_right .nav_logo .logo{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+
+}
+
+.nav_right{
+    display: flex;
+    align-items: center;
+    gap: 0 90px;
+}
+
+.menu{
+    display: none;
+}
+
+.nav_logo h2{
+    color: #000;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.nav_left{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.main_item {
+    display: flex;
+    align-items: center;
+    margin-right: 240px;
+    gap: 30px;
+}
+
+.main_item .item a{
+    cursor: pointer;
+    color: #000;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.nav_left p a{
+    gap: 0 12px;
+    display: flex;
+    align-items: center;
+}
+
+.nav_left p a{
+    color: #000;
+    text-align: right;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.nav_left p svg{
+    width: 24px;
+    height: 24px;
+}
+
+.nav_left-main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 768px){
+    .nav_left-main{
+        flex-direction: column;
+        transition: all 0.5s;
+        max-height: 0;
+        overflow: hidden;
+    }
+
+    .nav_logo{
+        display: flex;
+        align-items: center;
+        gap: 0 20px;
+    }
+
+    .menu{
+        display: block;
+    }
+
+    .hamburderMenu{
+        background: transparent;
+        border: none;
+        font-size: 25px;
+    }
+
+    .nav_content{
+        flex-direction: column;
+    }
+
+    .main_item{
+        margin-left: 160px;
+        padding-top: 20px;
+        flex-direction: column;
+    }
+
+    .nav_left{
+        padding-top: 18px;
+    }
+    
+}
+
+@media only screen and (max-width: 920px){
+    .main_item{
+        margin-right: 170px;
+    }
+}
+

@@ -1,0 +1,57 @@
+.footer{
+    margin-top: 100px;
+    background: #000;
+    padding-bottom: 100px;
+    color: #fff;
+}
+
+.foo_content{
+    padding-top: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.foo_list ul li{
+    padding-top: 20px;
+}
+
+.foo_location{
+    display: flex;
+    align-items: center;
+}
+
+.foo_logo h2{
+    color: #FFF;
+    font-size: 20px;
+    text-align: center;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.foo_location{
+    padding-top: 20px;
+}
+
+.foo_social-media .social_links{
+    padding-top: 14px;
+    display: flex;
+    gap: 0 16px;
+    font-size: 24px;
+}
+
+.foo_sec1{
+    color: #FFF;
+    display: flex;
+    gap: 20px;
+}
+
+.foo_sec1 p a{
+    color: #FFF;
+}
+
+@media only screen and (max-width: 768px){
+    .foo_content{
+        flex-direction: column;
+    }
+}
