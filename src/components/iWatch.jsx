@@ -3,7 +3,6 @@ import { useState } from "react"
 import Modal from "./Modal"
 import bigWatch from "../assets/big_watch.png"
 import air1 from "../assets/air2.png"
-import air2 from "../assets/air1.png"
 import air3 from "../assets/air3.png"
 
 const IWatch = () => {
