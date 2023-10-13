@@ -1,7 +1,5 @@
-import applelogo from "../assets/apple.svg"
 import "../style/Footer.css"
 import { Link, animateScroll as scroll } from "react-scroll"
-import { GrLocation } from "react-icons/gr"
 import { FiFacebook, FiTwitter } from "react-icons/fi"
 import { CiInstagram } from "react-icons/ci"
 import { AiOutlineYoutube } from "react-icons/ai"
@@ -15,6 +13,7 @@ const Footer = () => {
       <div className="container">
         <div className="foo_content">
           <div className="foo_logo">
+          <div className="logo">
           <svg xmlns="http://www.w3.org/2000/svg" width="60" height="61" viewBox="0 0 60 61" fill="none">
           <g clipPath="url(#clip0_159_1059)">
             <path d="M41.9322 0.530026C41.8047 0.387526 37.211 0.586276 33.2135 4.92503C29.216 9.26003 29.831 14.2325 29.921 14.36C30.011 14.4875 35.621 14.6863 39.2022 9.64253C42.7835 4.59878 42.0597 0.676276 41.9322 0.530026ZM54.3597 44.5288C54.1797 44.1688 45.641 39.9013 46.436 31.6963C47.231 23.4875 52.7172 21.2375 52.8035 20.9938C52.8897 20.75 50.5647 18.0313 48.101 16.655C46.292 15.6847 44.29 15.1288 42.2397 15.0275C41.8347 15.0163 40.4285 14.6713 37.5372 15.4625C35.6322 15.9838 31.3385 17.6713 30.1572 17.7388C28.9722 17.8063 25.4472 15.7813 21.656 15.245C19.2297 14.7763 16.6572 15.7363 14.816 16.475C12.9785 17.21 9.48347 19.3025 7.03847 24.8638C4.59347 30.4213 5.87222 39.2263 6.78722 41.9638C7.70222 44.6975 9.13097 49.1788 11.561 52.4488C13.721 56.1388 16.586 58.7 17.7822 59.57C18.9785 60.44 22.3535 61.0175 24.6935 59.8213C26.576 58.6663 29.9735 58.0025 31.316 58.0513C32.6547 58.1 35.2947 58.6288 37.9985 60.0725C40.1397 60.8113 42.1647 60.5038 44.1935 59.6788C46.2222 58.85 49.1585 55.7075 52.586 49.3363C53.8872 46.3738 54.4797 44.7725 54.3597 44.5288Z" fill="white"/>
@@ -26,6 +25,7 @@ const Footer = () => {
             </clipPath>
           </defs>
         </svg>
+          </div>
             <h2>Astrolab</h2>
           </div>
           <div className="foo_list">
@@ -83,6 +83,7 @@ const Footer = () => {
             </ul>
           </div>
           <div className="foo_social-media">
+            <div className="fosc">
             <p>Social media</p>
             <div className="social_links">
               <FiFacebook/>
@@ -90,6 +91,7 @@ const Footer = () => {
               <AiOutlineYoutube/>
               <FiTwitter/>
               <PiTelegramLogoLight/>
+            </div>
             </div>
           </div>
           <div className="foo_addres">

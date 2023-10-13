@@ -51,7 +51,41 @@
 }
 
 @media only screen and (max-width: 768px){
+
+    .footer{
+        margin-top: 30px;
+    }
+
     .foo_content{
         flex-direction: column;
+    }
+
+    .logo{
+        display: flex;
+        justify-content: center;
+        padding-bottom: 10px;
+    }
+
+    .foo_list {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .foo_social-media{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    .foo_addres{
+        padding-top: 30px;
+    }
+
+    .foo_sec1 p{
+        font-size: 14px;
     }
 }
